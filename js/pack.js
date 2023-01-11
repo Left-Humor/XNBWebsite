@@ -38,7 +38,7 @@ function handleFiles()
 	showCode();
 
 //	pack(this.files, {...options, debug:true}).then((files)=>{console.log(files); return files;});
-	pack(this.files, options).then(xnbPackToZip).catch(closeButton);
+	pack(this.files, options).then(xnbPackToZip);//.catch(closeButton);
 }
 
 
